@@ -1,0 +1,16 @@
+[font=Verdana][size=4][b]Description[/b][/size][/font]
+Disables "Cheated" flag. With the mod you can use game's console commands and still unlock Achievements.
+The mod will also unflag your save file. Just load a save file and resave it while the mod is running.
+(You will still get the message "Achievements are now disabled" after using a console command)
+
+[font=Verdana][size=4][b]Requirements[/b][/size][/font]
+[size=3]Latest [url=https://melonwiki.xyz/#/?id=requirements]MelonLoader[/url][/size]
+
+[font=Verdana][size=4][b]Installation[/b][/size][/font]
+1. Download [url=https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe]MelonLoader.Installer.exe[/url].
+2. Run the [b]MelonLoader.Installer.exe[/b].
+3. Click the [b]SELECT[/b] button and select the [b]HouseParty.exe[/b] from game's directory.
+4. Select [b]latest[/b] version of MelonLoader.
+5. Click the [b]INSTALL[/b] or [b]RE-INSTALL[/b] button.
+6. Download the latest release of the mod from the [i]Files[/i] tab.
+7. Extract and move the [b]HPAchievementsEnabler.dll[/b] into the [b]Mods[/b] folder in game's directory

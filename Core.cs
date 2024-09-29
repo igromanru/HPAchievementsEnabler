@@ -11,7 +11,7 @@ namespace HPAchievementsEnabler
     {
         public override void OnInitializeMelon()
         {
-            LoggerInstance.Msg("Initialized.");
+            LoggerInstance.Msg("Initialized");
         }
 
         public override void OnUpdate()
