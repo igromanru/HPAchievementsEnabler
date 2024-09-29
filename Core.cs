@@ -1,4 +1,5 @@
-﻿using Il2CppEekUI.Achievements;
+﻿using Il2CppEekCharacterEngine.ConsoleV2;
+using Il2CppEekUI.Achievements;
 using MelonLoader;
 
 [assembly: MelonInfo(typeof(HPAchievementsEnabler.Core), "HPAchievementsEnabler", "1.0.0", "igromanru", null)]
@@ -16,6 +17,7 @@ namespace HPAchievementsEnabler
         public override void OnUpdate()
         {
             AchievementManager.Cheated = false;
+            CV2.SetCheated(false);
         }
     }
 }
