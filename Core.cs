@@ -1,4 +1,5 @@
-﻿using MelonLoader;
+﻿using Il2CppEekUI.Achievements;
+using MelonLoader;
 
 [assembly: MelonInfo(typeof(HPAchievementsEnabler.Core), "HPAchievementsEnabler", "1.0.0", "igromanru", null)]
 [assembly: MelonGame("Eek", "House Party")]
@@ -10,6 +11,11 @@ namespace HPAchievementsEnabler
         public override void OnInitializeMelon()
         {
             LoggerInstance.Msg("Initialized.");
+        }
+
+        public override void OnUpdate()
+        {
+            AchievementManager.Cheated = false;
         }
     }
 }
