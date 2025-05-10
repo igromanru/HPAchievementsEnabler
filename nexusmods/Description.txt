@@ -31,8 +31,7 @@ To test if the mod works, I'm using a save file that can unlock the "Rule 34" ac
 4. Load the "Rule 34 Achievement" save.
 5. Use any cheat that would usually disable Achievements.
 6. Look down at the penguin, interact with it and select [b]"...Insert"[/b]
-7. If you see the achievements pop-up and a new Achievements.log file was created, then the mod works.
-
+7. If you see the [url=https://staticdelivery.nexusmods.com/mods/3147/images/51/51-1746901804-663554747.jpeg]achievement pop-up[/url] and a new Achievements.log file was created, then the mod works.
 
 
 [size=2][b][url=https://github.com/igromanru/HPAchievementsEnabler]GitHub Page[/url][/b][/size]
