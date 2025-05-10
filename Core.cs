@@ -2,7 +2,7 @@
 using Il2CppEekUI.Achievements;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(HPAchievementsEnabler.Core), "HPAchievementsEnabler", "1.0.0", "igromanru", null)]
+[assembly: MelonInfo(typeof(HPAchievementsEnabler.Core), "HPAchievementsEnabler", "1.0.1", "igromanru", null)]
 [assembly: MelonGame("Eek", "House Party")]
 
 namespace HPAchievementsEnabler
@@ -18,6 +18,7 @@ namespace HPAchievementsEnabler
         {
             AchievementManager.Cheated = false;
             CV2.SetCheated(false);
+            CV2._cheated = false;
         }
     }
 }

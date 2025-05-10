@@ -14,3 +14,25 @@ The mod will also unflag your save file. Just load a save file and resave it whi
 5. Click the [b]INSTALL[/b] or [b]RE-INSTALL[/b] button.
 6. Download the latest release of the mod from the [i]Files[/i] tab.
 7. Extract and move the [b]HPAchievementsEnabler.dll[/b] into the [b]Mods[/b] folder in game's directory
+
+[b]Hint:[/b] Make sure your Firewall isn't blocking the game, MelonLoader runs as a module in the game and it needs to download some other module to be able to work with it.
+
+[font=Verdana][size=4][b]How to delete your in-game achievements?[/b][/size][/font]
+The in-game achievements (not Steam) are located in the file:
+[b]%UserProfile%\Documents\Eek\House Party\Achievements\Original Story\Achievements.log[/b]
+The file stores achievement IDs that were unlocked in the game.
+If you delete the [b]Achievements.log[/b] file, you will be able to unlock the achievements again.
+
+[font=Verdana][size=4][b]How to test that the mod actually works?[/b][/size][/font]
+To test if the mod works, I'm using a save file that can unlock the "Rule 34" achievement with one click.
+1. Download the save file from file section.
+2. Unzip it into the save files location: [b]%UserProfile%\Appdata\LocalLow\Eek\House Party\Saves\[/b]
+3. Make a back-up copy of your [b]Achievements.log[/b] and remove it from the ..\Original Story\ directory.
+4. Load the "Rule 34 Achievement" save.
+5. Use any cheat that would usually disable Achievements.
+6. Look down at the penguin, interact with it and select [b]"...Insert"[/b]
+7. If you see the achievements pop-up and a new Achievements.log file was created, then the mod works.
+
+
+
+[size=2][b][url=https://github.com/igromanru/HPAchievementsEnabler]GitHub Page[/url][/b][/size]
